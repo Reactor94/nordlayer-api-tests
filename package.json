@@ -1,0 +1,14 @@
+{
+  "name": "Gorest",
+  "description": "Gorest API task",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 src/integration/go-rest-test.js"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "mocha": "^10.2.0",
+    "mocha-each": "^2.0.1",
+    "pactum": "^3.5.1"
+  }
+}
